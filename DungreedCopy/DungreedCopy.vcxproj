@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{CDCD5077-E81E-41AA-B4F4-99B5D3F8E63B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>DungreedCopy</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\psklib\;</IncludePath>
+    <OutDir>..\BIN\x64\</OutDir>
+    <LibraryPath>..\BIN\x64\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\psklib\;</IncludePath>
+    <OutDir>..\BIN\x86\</OutDir>
+    <LibraryPath>..\BIN\x86\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\psklib\;</IncludePath>
+    <OutDir>..\BIN\x86\</OutDir>
+    <LibraryPath>..\BIN\x86\;$(LibraryPath)</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);..\psklib\;</IncludePath>
+    <OutDir>..\BIN\x64\</OutDir>
+    <LibraryPath>..\BIN\x64\;$(LibraryPath);$(VCInstallDir)atlmfc\lib\;</LibraryPath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile />
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile />
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="DecoData.h" />
+    <ClInclude Include="DunActor.h" />
+    <ClInclude Include="DunAniRender.h" />
+    <ClInclude Include="DunCircleCollider.h" />
+    <ClInclude Include="DunCollider.h" />
+    <ClInclude Include="DunCollisionManager.h" />
+    <ClInclude Include="DungreedBoss_01.h" />
+    <ClInclude Include="DungreedEnd.h" />
+    <ClInclude Include="DunImage.h" />
+    <ClInclude Include="DunImgRender.h" />
+    <ClInclude Include="DunItem.h" />
+    <ClInclude Include="DunMonster.h" />
+    <ClInclude Include="DunObject.h" />
+    <ClInclude Include="DunObjectAbility.h" />
+    <ClInclude Include="DunPlayer.h" />
+    <ClInclude Include="DunPointCollider.h" />
+    <ClInclude Include="DunRectCollider.h" />
+    <ClInclude Include="DunRender.h" />
+    <ClInclude Include="DunRenderManager.h" />
+    <ClInclude Include="DunResource.h" />
+    <ClInclude Include="DunResourceManager.h" />
+    <ClInclude Include="DunRoom.h" />
+    <ClInclude Include="DunScene.h" />
+    <ClInclude Include="DungreedStage_01.h" />
+    <ClInclude Include="DungreedStage_Town.h" />
+    <ClInclude Include="DungreedTitle.h" />
+    <ClInclude Include="DunSceneManager.h" />
+    <ClInclude Include="DunSprite.h" />
+    <ClInclude Include="DunSubActor.h" />
+    <ClInclude Include="DunTestStage.h" />
+    <ClInclude Include="DunTransRender.h" />
+    <ClInclude Include="DunWorm.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="DungreedCore.h" />
+    <ClInclude Include="RoomDoorData.h" />
+    <ClInclude Include="RoomDataMap.h" />
+    <ClInclude Include="RoomData.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="SwordFx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DecoData.cpp" />
+    <ClCompile Include="DunActor.cpp" />
+    <ClCompile Include="DunAniRender.cpp" />
+    <ClCompile Include="DunCircleCollider.cpp" />
+    <ClCompile Include="DunCollider.cpp" />
+    <ClCompile Include="DunCollisionManager.cpp" />
+    <ClCompile Include="DungreedBoss_01.cpp" />
+    <ClCompile Include="DungreedCore_Init.cpp" />
+    <ClCompile Include="DungreedEnd.cpp" />
+    <ClCompile Include="DunImage.cpp" />
+    <ClCompile Include="DunImgRender.cpp" />
+    <ClCompile Include="DunItem.cpp" />
+    <ClCompile Include="DunMonster.cpp" />
+    <ClCompile Include="DunObject.cpp" />
+    <ClCompile Include="DunObjectAbility.cpp" />
+    <ClCompile Include="DunPlayer.cpp" />
+    <ClCompile Include="DunPlayer_Animation.cpp" />
+    <ClCompile Include="DunPlayer_State.cpp" />
+    <ClCompile Include="DunPointCollider.cpp" />
+    <ClCompile Include="DunRectCollider.cpp" />
+    <ClCompile Include="DunRender.cpp" />
+    <ClCompile Include="DunRenderManager.cpp" />
+    <ClCompile Include="DunResourceManager.cpp" />
+    <ClCompile Include="DunRoom.cpp" />
+    <ClCompile Include="DunScene.cpp" />
+    <ClCompile Include="DungreedStage_01.cpp" />
+    <ClCompile Include="DungreedStage_Town.cpp" />
+    <ClCompile Include="DungreedTitle.cpp" />
+    <ClCompile Include="DunSceneManager.cpp" />
+    <ClCompile Include="DunSprite.cpp" />
+    <ClCompile Include="DunSubActor.cpp" />
+    <ClCompile Include="DunTestStage.cpp" />
+    <ClCompile Include="DunTransRender.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="DungreedCore.cpp" />
+    <ClCompile Include="RoomDataMap.cpp" />
+    <ClCompile Include="RoomDataMap_LoadData.cpp" />
+    <ClCompile Include="RoomDataMap_StaticMember.cpp" />
+    <ClCompile Include="RoomData.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="SwordFx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DungreedCopy.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DungreedCopy.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\psklib\psklib.vcxproj">
+      <Project>{5306137e-3be1-4270-964a-fda8a1a29a53}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

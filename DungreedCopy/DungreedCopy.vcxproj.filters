@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_main">
+      <UniqueIdentifier>{22d40a31-1151-46b6-bc05-599f234d0064}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{54e23345-114a-4e1f-855c-6b98fd7a591e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{25032b22-7259-4bbc-af75-a5fa4567c30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{6bf28e92-5c58-40a5-973e-3561679e338d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Scene">
+      <UniqueIdentifier>{b57515dc-31d7-4e04-93ce-bed4f22ab637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor">
+      <UniqueIdentifier>{e5b24119-0450-4845-aae8-1b69900a1857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{c84fcc8e-07c4-4091-8ba2-1586551cf0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Stage">
+      <UniqueIdentifier>{f5de4d61-a0d9-464c-b66c-c10a3f3e0aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Stage\01">
+      <UniqueIdentifier>{b2fd9442-09a6-4130-9ac1-0400334ad75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Stage\Town">
+      <UniqueIdentifier>{1167b97a-09a8-4350-b18a-6cc687322552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Title">
+      <UniqueIdentifier>{f9791e8c-606c-4e74-833a-39040d1984ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\End">
+      <UniqueIdentifier>{5e4acc74-3d78-4e48-b365-4873ce94d0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Stage\Boss">
+      <UniqueIdentifier>{9746aaa8-23b0-4998-b9cd-bd5e2dc618e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="resource\etc">
+      <UniqueIdentifier>{6ff00dcb-a36b-42a7-ac8c-7656c42a3b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor">
+      <UniqueIdentifier>{508ace89-e585-4e37-890f-0ade3ff89e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Player">
+      <UniqueIdentifier>{5d7a0ead-988e-4c52-ba89-f1b1fdbe2eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Monster">
+      <UniqueIdentifier>{1ec17184-e8bc-4231-87ab-8963e72c5c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Item">
+      <UniqueIdentifier>{33b5a335-afe0-42a4-9eea-e240a74edec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjBase">
+      <UniqueIdentifier>{95d84ce5-e086-4a1c-b8da-2d02ed5372fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{fe7f0252-a179-481f-87fd-91e63c4f2dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Scene">
+      <UniqueIdentifier>{1d5a5269-94d1-493b-b294-eba9e88e4287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Render">
+      <UniqueIdentifier>{a0398bf0-fb89-4fbd-bfd5-2ae07d6bbf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Image">
+      <UniqueIdentifier>{f773cf0b-615a-4e47-8c3a-848ed6939958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\Image\Sprite">
+      <UniqueIdentifier>{280dbe2e-92b9-4819-b062-410b0c1c66db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Resource">
+      <UniqueIdentifier>{d3e13bd6-dcdd-4056-9d12-ad73ae67651b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Collision">
+      <UniqueIdentifier>{f51594ac-dc70-4ebe-acb2-1c1f53c8e595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\DecorateObj">
+      <UniqueIdentifier>{4c93dd65-f850-4e5a-b274-452358fed795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ETC">
+      <UniqueIdentifier>{35f5ddea-ff54-40cd-860c-a0773277a732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\ETC\Worm">
+      <UniqueIdentifier>{68840b7e-6e90-412d-bd2b-43a9a7de74f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjBase\Ability">
+      <UniqueIdentifier>{560c1c9e-1d8e-416a-8b52-c93bffc159e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub">
+      <UniqueIdentifier>{21b9ecf6-824d-4f1a-a4a0-c535e4626535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Collider">
+      <UniqueIdentifier>{9fae9942-7c2c-40c5-a478-4d87bdaae844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Collider\Circle">
+      <UniqueIdentifier>{4219764e-4d41-47b9-a35c-fe5745c04b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Collider\Point">
+      <UniqueIdentifier>{80242b76-3669-439e-8d7f-e44e10b524a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Collider\Rectangle">
+      <UniqueIdentifier>{d1ac0b3f-da4c-4ad1-8d49-437b54e48c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\_test">
+      <UniqueIdentifier>{f71a101f-7d50-4e74-a117-50ee2638f09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Render">
+      <UniqueIdentifier>{3beac45b-efe7-459d-ba55-396e180a8887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Render\Animation">
+      <UniqueIdentifier>{dd09d7cb-c47c-4eb5-8d2f-05ff5df07b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Render\Image">
+      <UniqueIdentifier>{3b157c87-f1d6-4266-8765-b98c629cc0b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Actor\Sub\Render\Transparent">
+      <UniqueIdentifier>{463db3f5-2b20-4b09-ab7d-7ca02c0a88b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Map">
+      <UniqueIdentifier>{c3fb31d3-8858-4e4d-b277-068ed7862a29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Room">
+      <UniqueIdentifier>{9170ab0a-97be-4130-a2a6-6502f0586c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Room\RoomData">
+      <UniqueIdentifier>{365a45ef-2082-4f8c-8e87-277a397b998a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Room\RoomDoorData">
+      <UniqueIdentifier>{02a2280e-1645-46bc-980e-9eac3edc2f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Actor\Item\Sword">
+      <UniqueIdentifier>{60af1b3d-3fab-4376-8805-a0a1a6ab3aaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>_main</Filter>
+    </ClInclude>
+    <ClInclude Include="DungreedCore.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="DungreedStage_01.h">
+      <Filter>Game\Scene\Stage\01</Filter>
+    </ClInclude>
+    <ClInclude Include="DungreedTitle.h">
+      <Filter>Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="DungreedEnd.h">
+      <Filter>Game\Scene\End</Filter>
+    </ClInclude>
+    <ClInclude Include="DungreedStage_Town.h">
+      <Filter>Game\Scene\Stage\Town</Filter>
+    </ClInclude>
+    <ClInclude Include="DungreedBoss_01.h">
+      <Filter>Game\Scene\Stage\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>resource\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>resource\etc</Filter>
+    </ClInclude>
+    <ClInclude Include="DunObject.h">
+      <Filter>Object\ObjBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DunActor.h">
+      <Filter>Object\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="DunScene.h">
+      <Filter>Object\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DunSceneManager.h">
+      <Filter>Manager\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DunRenderManager.h">
+      <Filter>Manager\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DunRender.h">
+      <Filter>Object\Actor\Sub\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="DunAniRender.h">
+      <Filter>Object\Actor\Sub\Render\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="DunImgRender.h">
+      <Filter>Object\Actor\Sub\Render\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DunTransRender.h">
+      <Filter>Object\Actor\Sub\Render\Transparent</Filter>
+    </ClInclude>
+    <ClInclude Include="DunImage.h">
+      <Filter>resource\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="DunSprite.h">
+      <Filter>resource\Image\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="DunResourceManager.h">
+      <Filter>Manager\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="DunMonster.h">
+      <Filter>Game\Actor\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoData.h">
+      <Filter>Game\Actor\DecorateObj</Filter>
+    </ClInclude>
+    <ClInclude Include="DunWorm.h">
+      <Filter>Game\ETC\Worm</Filter>
+    </ClInclude>
+    <ClInclude Include="DunPlayer.h">
+      <Filter>Game\Actor\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="DunCollisionManager.h">
+      <Filter>Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="DunObjectAbility.h">
+      <Filter>Object\ObjBase\Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="DunSubActor.h">
+      <Filter>Object\Actor\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="DunCollider.h">
+      <Filter>Object\Actor\Sub\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="DunItem.h">
+      <Filter>Game\Actor\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="DunCircleCollider.h">
+      <Filter>Object\Actor\Sub\Collider\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="DunPointCollider.h">
+      <Filter>Object\Actor\Sub\Collider\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="DunRectCollider.h">
+      <Filter>Object\Actor\Sub\Collider\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="DunTestStage.h">
+      <Filter>Game\Scene\_test</Filter>
+    </ClInclude>
+    <ClInclude Include="DunRoom.h">
+      <Filter>Game\Actor\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomDoorData.h">
+      <Filter>Game\Actor\Room\RoomDoorData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomData.h">
+      <Filter>Game\Actor\Room\RoomData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomDataMap.h">
+      <Filter>Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Game\Actor\Item\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordFx.h">
+      <Filter>Game\Actor\Item\Sword</Filter>
+    </ClInclude>
+    <ClInclude Include="DunResource.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>_main</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedCore.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedStage_01.cpp">
+      <Filter>Game\Scene\Stage\01</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedStage_Town.cpp">
+      <Filter>Game\Scene\Stage\Town</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedTitle.cpp">
+      <Filter>Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedEnd.cpp">
+      <Filter>Game\Scene\End</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedBoss_01.cpp">
+      <Filter>Game\Scene\Stage\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="DunObject.cpp">
+      <Filter>Object\ObjBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DunActor.cpp">
+      <Filter>Object\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="DunScene.cpp">
+      <Filter>Object\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DunSceneManager.cpp">
+      <Filter>Manager\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DunRenderManager.cpp">
+      <Filter>Manager\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DunRender.cpp">
+      <Filter>Object\Actor\Sub\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="DunAniRender.cpp">
+      <Filter>Object\Actor\Sub\Render\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="DunImgRender.cpp">
+      <Filter>Object\Actor\Sub\Render\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DunTransRender.cpp">
+      <Filter>Object\Actor\Sub\Render\Transparent</Filter>
+    </ClCompile>
+    <ClCompile Include="DunImage.cpp">
+      <Filter>resource\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="DunSprite.cpp">
+      <Filter>resource\Image\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="DunResourceManager.cpp">
+      <Filter>Manager\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="DunMonster.cpp">
+      <Filter>Game\Actor\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoData.cpp">
+      <Filter>Game\Actor\DecorateObj</Filter>
+    </ClCompile>
+    <ClCompile Include="DunPlayer.cpp">
+      <Filter>Game\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DunPlayer_State.cpp">
+      <Filter>Game\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DunCollisionManager.cpp">
+      <Filter>Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="DunObjectAbility.cpp">
+      <Filter>Object\ObjBase\Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="DunSubActor.cpp">
+      <Filter>Object\Actor\Sub</Filter>
+    </ClCompile>
+    <ClCompile Include="DunCollider.cpp">
+      <Filter>Object\Actor\Sub\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="DunItem.cpp">
+      <Filter>Game\Actor\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="DunCircleCollider.cpp">
+      <Filter>Object\Actor\Sub\Collider\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="DunPointCollider.cpp">
+      <Filter>Object\Actor\Sub\Collider\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="DunRectCollider.cpp">
+      <Filter>Object\Actor\Sub\Collider\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="DunPlayer_Animation.cpp">
+      <Filter>Game\Actor\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="DunTestStage.cpp">
+      <Filter>Game\Scene\_test</Filter>
+    </ClCompile>
+    <ClCompile Include="DunRoom.cpp">
+      <Filter>Game\Actor\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="DungreedCore_Init.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomData.cpp">
+      <Filter>Game\Actor\Room\RoomData</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDataMap.cpp">
+      <Filter>Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDataMap_LoadData.cpp">
+      <Filter>Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomDataMap_StaticMember.cpp">
+      <Filter>Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Game\Actor\Item\Sword</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordFx.cpp">
+      <Filter>Game\Actor\Item\Sword</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DungreedCopy.ico">
+      <Filter>resource\etc</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>resource\etc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DungreedCopy.rc">
+      <Filter>resource\etc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

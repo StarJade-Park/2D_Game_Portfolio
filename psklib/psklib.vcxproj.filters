@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="IO">
+      <UniqueIdentifier>{020dd9b2-728e-4bac-b2e1-3b9bb5278840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{0629f73a-e2d2-4580-b637-5825e6726088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WindowController">
+      <UniqueIdentifier>{63dc4a8b-f68a-4721-843f-09f4b184f9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{bcb793a8-7b39-4b75-aacc-cc59b9d06f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{ea4d18ac-4864-4fa6-8269-40b1d597798d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileSystem">
+      <UniqueIdentifier>{4b6edbea-36ed-4a24-bc81-ecdff93d4e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileIO">
+      <UniqueIdentifier>{ecceb87b-b1c5-470b-9374-1174222a27e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileSystem\Path">
+      <UniqueIdentifier>{f3da7efa-defc-4b75-8e4c-edc810c35b56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileSystem\Info">
+      <UniqueIdentifier>{448d08ae-86a4-40fe-9160-ec8221d1cc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\FileSystem\Directory">
+      <UniqueIdentifier>{681fac3c-58e8-49f0-81ca-7e29cee7865b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color">
+      <UniqueIdentifier>{a6452988-f949-4006-8ec3-e51b32d57000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Position">
+      <UniqueIdentifier>{d9481157-a745-4487-b306-2f21417476bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Vector">
+      <UniqueIdentifier>{134d5dbf-21af-4efa-bda3-d659b13e663f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO\KeyInput">
+      <UniqueIdentifier>{df138a90-35b5-41f1-a37f-9ba134caa994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pivot">
+      <UniqueIdentifier>{f2030c0e-838c-4d58-ac40-325b7e7e4af9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Shape">
+      <UniqueIdentifier>{4519948b-8446-41bf-b136-4712b408c3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Size">
+      <UniqueIdentifier>{dd674b12-fa6d-4902-9d4d-122f2bfc8b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{de39f88a-f505-4f21-9bb7-efae8bb2b1ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{05ce6e82-7807-4ee5-8f1e-134e051cbd7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\SoundClip">
+      <UniqueIdentifier>{371dbb8d-9646-442c-97de-93b5db6fcbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound\SoundPlayer">
+      <UniqueIdentifier>{7669ceca-4c16-4fa2-9c63-b2daf5d581af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Shape\Circle">
+      <UniqueIdentifier>{d431dced-bb6d-4f05-8e1d-6709c9fe691f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Shape\Point">
+      <UniqueIdentifier>{35897ab5-f0b3-4431-a7f3-b01e213b4c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry\Shape\Rectangle">
+      <UniqueIdentifier>{23b4e6f3-a675-453a-be72-f76ba5726107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameIO.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFileIO.h">
+      <Filter>IO\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowController.h">
+      <Filter>WindowController</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDirectory.h">
+      <Filter>IO\FileSystem\Directory</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePath.h">
+      <Filter>IO\FileSystem\Path</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDirectoryInfo.h">
+      <Filter>IO\FileSystem\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="GameColor.h">
+      <Filter>Color</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePos.h">
+      <Filter>Geometry\Position</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Geometry\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="GameKeyInput.h">
+      <Filter>IO\KeyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="PivotDirection.h">
+      <Filter>Pivot</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSize.h">
+      <Filter>Geometry\Size</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="tags.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSound.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSoundClip.h">
+      <Filter>Sound\SoundClip</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSoundPlayer.h">
+      <Filter>Sound\SoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundDef.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRectangle.h">
+      <Filter>Geometry\Shape\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameShape.h">
+      <Filter>Geometry\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCircle.h">
+      <Filter>Geometry\Shape\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFileSystem.h">
+      <Filter>IO\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSoundSystem.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Well512Random.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="MapKey.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameIO.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFileIO.cpp">
+      <Filter>IO\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowController.cpp">
+      <Filter>WindowController</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDirectory.cpp">
+      <Filter>IO\FileSystem\Directory</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePath.cpp">
+      <Filter>IO\FileSystem\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDirectoryInfo.cpp">
+      <Filter>IO\FileSystem\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="GameKeyInput.cpp">
+      <Filter>IO\KeyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Geometry\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="GameColor.cpp">
+      <Filter>Color</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSound.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSoundPlayer.cpp">
+      <Filter>Sound\SoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRectangle.cpp">
+      <Filter>Geometry\Shape\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCircle.cpp">
+      <Filter>Geometry\Shape\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
