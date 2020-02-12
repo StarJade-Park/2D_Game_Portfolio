@@ -5,7 +5,7 @@
 릴리즈 빌드 영상 : [https://www.youtube.com/watch?v=MPpndVPGR7w](https://www.youtube.com/watch?v=MPpndVPGR7w)
 
 1. 사용언어 : C++
-2. 설명 : Win32, DirectX등을 사용한 던그리드 모작
+2. 설명 : Win32 Api을 사용한 던그리드 모작
 3. 환경 : Windows10, Visual Studio 2017
 4. 3rd party library
     - FMOD : 소리 처리
